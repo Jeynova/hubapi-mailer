@@ -1,0 +1,33 @@
+{
+    "name": "tommysonsylverstone/hubapi-mailer",
+    "type": "hubapi-mailer-bridge",
+    "description": "Hubscore api mailer bridge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tenreiro Benjamin",
+            "email": "tenreiro.benjamin@gmail.com"
+        },
+        {
+            "name": "Sevengroup",
+            "homepage": "https://www.seven-group.com/fr"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || >=8.1",
+        "symfony/mailer": "^5.4.21|^6.2.7"
+    },
+    "require-dev": {
+        "symfony/http-client": "^5.4|^6.0"
+    },
+    "conflict": {
+        "symfony/mime": "<6.2"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\Mailer\\Bridge\\Hubscore\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
