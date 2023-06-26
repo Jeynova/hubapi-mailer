@@ -1,6 +1,5 @@
 {
-    "name": "tommysonsylverstone/hubapi-mailer",
-    "type": "hubapi-mailer-bridge",
+    "name": "sevenGroupFrance/hubapi-mailer",
     "description": "Hubscore api mailer bridge",
     "license": "MIT",
     "authors": [
