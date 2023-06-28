@@ -1,29 +1,29 @@
 {
-    "name": "seven-group-france/hubapi-mailer",
-    "description": "Hubscore api mailer bridge",
+    "name": "sevengroupfrance/sulu-duplicate-articles-bundle",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
-            "name": "Tenreiro Benjamin",
-            "email": "tenreiro.benjamin@gmail.com"
-        },
-        {
-            "name": "Sevengroup",
-            "homepage": "https://www.seven-group.com/fr"
+            "name": "Novice Jeremy",
+            "email": "jeremy.novice@key-performance-group.com"
         }
     ],
-    "require": {
-        "php": "^7.4 || >=8.1",
-        "symfony/mailer": "^5.4.21|^6.2.7"
-    },
-    "require-dev": {
-        "symfony/http-client": "^5.4|^6.0"
-    },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\Mailer\\Bridge\\Hubscore\\": "" },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+        "psr-4": {
+            "SevenGroupFrance\\SuluDuplicateArticles\\": "src"
+        }
     },
-    "minimum-stability": "dev"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sevenGroupFrance/sulu-duplicate-articles-bundle/"
+        },
+        {
+            "type": "path",
+            "url": "../../../assets/admin/node_modules",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
 }
