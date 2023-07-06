@@ -1,0 +1,29 @@
+{
+    "name": "sevengroupfrance/sulu-duplicate-articles-bundle",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Novice Jeremy",
+            "email": "jeremy.novice@key-performance-group.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SevenGroupFrance\\SuluDuplicateArticlesBundle\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sevenGroupFrance/sulu-duplicate-articles-bundle/"
+        },
+        {
+            "type": "path",
+            "url": "../../../assets/admin/node_modules",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
